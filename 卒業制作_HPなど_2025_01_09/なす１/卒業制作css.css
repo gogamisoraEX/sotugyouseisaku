@@ -1,0 +1,83 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}*/
+body {
+    background-color: white;
+}
+table, th, td {
+    border: 1px solid black
+}
+
+th, td {
+    margin: auto;
+}
+h1 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.gazou01 {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+    background-image:url("three.jpeg");
+    background-repeat: repeat-x;
+}
+.gazou02 {
+    width: auto;
+    height: 195px;
+    margin: 0 0;
+    background-image:url("three.jpeg");
+    background-repeat: repeat-x;
+}
+#title01 {
+    margin: 0px auto 0;
+    padding: 0px;
+    border: 5px solid skyblue;
+    width: 2000px;
+    height: 120px;
+    color: black;
+    background-color: skyblue;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 50px;
+}
+#kinoumain {
+    margin: 100px auto 100px auto;
+    border: 4px solid black;
+    width: 450px;
+    height: 175px;
+    color: black;
+    background-color: #f0f0f0;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 200px;
+    display: grid;
+    place-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.kinouyo {
+    margin: 100px auto;
+    border: 4px solid black;
+    width: 300px;
+    height: 150px;
+    color: black;
+    background-color: #f0f0f0;
+    font-size: 50px;
+    top: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    display: grid;
+    place-items: center;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align-last: justify;
+}
