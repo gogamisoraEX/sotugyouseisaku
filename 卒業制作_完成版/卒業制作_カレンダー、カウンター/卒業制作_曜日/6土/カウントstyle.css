@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#title {
+  margin: 0px auto 0;
+  padding: 0px;
+  border: 5px solid #999;
+  width: 2000px;
+  height: 120px;
+  color: white;
+  background-color: #999;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #5a5a5a;
+}
+
+h2 {
+  font-size: 1.4em;
+  color: #666;
+}
+
+
+
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  font-size: 1.2em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  border-color: #6c8ed6;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3e8e41;
+}
+
+button:focus {
+  outline: none;
+}
+
+#back {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+#send {
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+
+a:hover {
+  background-color: #45a049;
+}
+
+a p {
+  margin: 0;
+  color: white;
+}
+
+.class31, .class32, .class33, .class34, .class35, .class36 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #0077cc;
+  margin: 10px 0;
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50;
+}
