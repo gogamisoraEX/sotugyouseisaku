@@ -46,11 +46,11 @@ body {
     display: inline-block;
     background-color: #4CAF50;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 1.2em;
+    font-size: 3.2em;
   }
 
   h2 {
