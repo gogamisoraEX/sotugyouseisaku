@@ -220,8 +220,7 @@ window.addEventListener("load", () => {
         else if(d == 1) {     //月曜日
           if(mozinumber1[w] != "") {
             if(number1[w] >= 4) {
-                selHtml += '<td><p>' + `<small>${mozinumber1[w].substring(0,3)}</small>` + "..." + '<br><a style = "color: red;">' + number1[w] + '</a></p></td>'
-              }
+              selHtml += '<td><p>' + `<small>${mozinumber1[w].substring(0,3)}</small>` + "..." + '<br><a style = "color: red;">' + number1[w] + '</a></p></td>'
             }
             else {
                 selHtml += '<td><p>' + `<small>${mozinumber1[w].substring(0,3)}</small>` + "..." + "<br>" + number1[w] + '</p></td>'
