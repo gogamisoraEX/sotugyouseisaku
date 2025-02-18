@@ -220,7 +220,7 @@ window.addEventListener("load", () => {
         else if(d == 1) {     //月曜日
           if(mozinumber1[w] != "") {
             if(number1[w] >= 4) {
-              if(mozinumber1[w].value > 3) {
+              if(mozinumber1[w].value > 2) {
                 selHtml += '<td><p>' + `<small>${mozinumber1[w].substring(0,3)}</small>` + "..." + '<br><a style = "color: red;">' + number1[w] + '</a></p></td>'
               }
               else {
@@ -228,7 +228,7 @@ window.addEventListener("load", () => {
               }
             }
             else {
-              if(mozinumber1[w].value > 3) {
+              if(mozinumber1[w].value > 2) {
                 selHtml += '<td><p>' + `<small>${mozinumber1[w].substring(0,3)}</small>` + "..." + "<br>" + number1[w] + '</p></td>'
               }
               else {
