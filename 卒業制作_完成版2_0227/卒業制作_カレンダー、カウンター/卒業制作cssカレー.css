@@ -19,7 +19,6 @@ body {
   }
   #tdca {
     width: 100px;
-    max-width: 80%;
   }
   #tdju {
     min-width: 100px;
@@ -92,7 +91,7 @@ body {
     margin: 100px auto;
     padding: 10px;
     width: 100%;
-    max-width: 1130px;
+    max-width: 1200px;
     max-height: 60%;
     text-align: center;
     position: relative;
