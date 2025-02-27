@@ -23,9 +23,9 @@ body {
   #tdzi {
     width: 30px;
   }
-  /*#tdju {
-    min-width: 100px;
-  }*/
+  #tdju {
+    min-width: 50px;
+  }
 
   p {
     font-size: 25px;
