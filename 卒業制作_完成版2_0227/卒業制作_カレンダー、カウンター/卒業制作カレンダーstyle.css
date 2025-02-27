@@ -17,15 +17,6 @@ body {
     text-align: center;
 
   }
-  #tdca {
-    width: 100px;
-  }
-  #tdzi {
-    width: 30px;
-  }
-  #tdju {
-    min-width: 70px;
-  }
 
   p {
     font-size: 25px;
@@ -71,6 +62,16 @@ body {
     height: 80px;
     width: 160px;
     cursor: pointer;
+  }
+
+  #tdca {
+    width: 100px;
+  }
+  #tdzi {
+    width: 30px;
+  }
+  #tdju {
+    min-width: 70px;
   }
 
   #calendar {
